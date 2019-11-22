@@ -148,7 +148,7 @@ p{
     color: white;
 }
 @media only screen and (max-width: 600px) {
-    .slideanim {visibility:visible;}
-    .slideanim-2 {visibility:visible;}
-    .slideanim-3 {visibility:visible;}
+    .slideanim-sm {visibility:visible;}
+    .slideanim-sm-2 {visibility:visible;}
+    .slideanim-sm-3 {visibility:visible;}
 }
