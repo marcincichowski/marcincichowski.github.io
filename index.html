@@ -60,24 +60,24 @@
     <!--services -->
     <div id="services" class="container-fluid">
         <div class="row">
-            <div class="col-sm-12 slideanim">
+            <div class="col-sm-12 slide">
                 <h2>PROFESSIONAL SERVICES</h2>
             </div>
         </div>
         <div id="services-detail" class="row center">
-            <div class="col-lg-4 slideanim-sm">
+            <div class="col-lg-4 slide">
                 <i class="fab fa-html5 large-icon"></i>
                 <h2>HTML 5</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed tellus lectus. Praesent nec tortor id sapien posuere consequat. Nullam a ipsum in mauris imperdiet sagittis auctor in nibh. Ut porta viverra magna sed mollis. Suspendisse vitae justo eu massa.</p>
                 <p><a class="btn btn-secondary" href="#services" role="button">View details »</a></p>
             </div>
-            <div class="col-lg-4 slideanim-sm-2">
+            <div class="col-lg-4 slide">
                 <i class="fab fa-react large-icon"></i>
                 <h2>React.js</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed tellus lectus. Praesent nec tortor id sapien posuere consequat. Nullam a ipsum in mauris imperdiet sagittis auctor in nibh. Ut porta viverra magna sed mollis. Suspendisse vitae justo eu massa.</p>
                 <p><a class="btn btn-secondary" href="#services" role="button">View details »</a></p>
             </div>
-            <div class="col-lg-4 slideanim-sm-3">
+            <div class="col-lg-4 slide">
                 <i class="fab fa-css3-alt large-icon"></i>
                 <h2>CSS 3</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed tellus lectus. Praesent nec tortor id sapien posuere consequat. Nullam a ipsum in mauris imperdiet sagittis auctor in nibh. Ut porta viverra magna sed mollis. Suspendisse vitae justo eu massa.</p>
@@ -95,7 +95,7 @@
         <div class="row center bg-grey slideanim">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
-                <img src="img/people-discussion.jpg" class="img-responsive thumbnail">
+                <img src="img/people-discussion.jpg"  alt="img" class="img-responsive thumbnail">
             </div>
         </div>
         <div class="row center bg-grey slideanim">
@@ -133,8 +133,8 @@
             <div class="col-lg-4 contact-item">
                 <h4>SOCIAL PAGES</h4>
                 <p class="contact-us-item"><a class="contact-link" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i> facebook.com</a></p>
-                <p class="contact-us-item"><a class="contact-link" href="https://www.instagram.com"><i class="fab fa-instagram"></i> instagram.com</p>
-                <p class="contact-us-item"><a class="contact-link" href="https://www.twitter.com"><i class="fab fa-twitter-square"></i> twitter.com</p>
+                <p class="contact-us-item"><a class="contact-link" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> instagram.com</a></p>
+                <p class="contact-us-item"><a class="contact-link" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i> twitter.com</a></p>
             </div>
         </div>
     </div>
@@ -160,27 +160,6 @@
                 }
             });
             $(".slideanim-3").each(function(){
-                var pos = $(this).offset().top;
-                var winTop = $(window).scrollTop();
-                if (pos < winTop + 600) {
-                    $(this).addClass("slide-delay-3");
-                }
-            });
-            $(".slideanim-sm").each(function(){
-                var pos = $(this).offset().top;
-                var winTop = $(window).scrollTop();
-                if (pos < winTop + 600) {
-                    $(this).addClass("slide");
-                }
-            });
-            $(".slideanim-sm-2").each(function(){
-                var pos = $(this).offset().top;
-                var winTop = $(window).scrollTop();
-                if (pos < winTop + 600) {
-                    $(this).addClass("slide-delay-2");
-                }
-            });
-            $(".slideanim-sm-3").each(function(){
                 var pos = $(this).offset().top;
                 var winTop = $(window).scrollTop();
                 if (pos < winTop + 600) {
